@@ -11,6 +11,5 @@ namespace ClassLibrary
             Console.WriteLine("Inside AddOne");
             return x + 1;
         }
-
     }
 }

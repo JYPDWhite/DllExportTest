@@ -11,9 +11,16 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
-            Console.WriteLine("1+1=" + AddOne(1));
+            Console.WriteLine("Hello, DotNetCore");
+            try
+            {
+                Console.WriteLine("1+1=" + AddOne(1));
+            }
+            catch (Exception ex)
+            {
 
+                Console.WriteLine(ex.ToString());
+            }
 
             Console.ReadKey();
         }
