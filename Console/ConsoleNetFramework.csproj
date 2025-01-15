@@ -51,8 +51,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\ClassLibrary\bin\Release\net8.0\win-x64\native\ClassLibrary.dll">
+    <Content Include="..\ClassLibrary\bin\Debug\net8.0\win-x64\native\ClassLibrary.dll">
       <Link>ClassLibrary.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ClassLibrary\bin\Debug\net8.0\win-x64\native\ClassLibrary.pdb">
+      <Link>ClassLibrary.pdb</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
