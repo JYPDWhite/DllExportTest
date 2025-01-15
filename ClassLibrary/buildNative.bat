@@ -1,0 +1,1 @@
+dotnet publish -f net8.0 -c Release -r win-x64 -p:PublishAot=true -p:NativeLib=Shared -p:SelfContained=true

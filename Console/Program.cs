@@ -11,7 +11,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, DotNetCore");
+            Console.WriteLine("Hello, Net Framework");
             try
             {
                 Console.WriteLine("1+1=" + AddOne(1));

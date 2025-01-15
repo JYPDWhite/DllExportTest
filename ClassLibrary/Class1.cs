@@ -1,11 +1,11 @@
-﻿using com.github._3F.DllExport;
-using System;
+﻿using System;
+using System.Runtime.InteropServices;
 
 namespace ClassLibrary
 {
     public class Class1
     {
-        [DllExport]
+        [UnmanagedCallersOnly(EntryPoint ="AddOne")]
         public static int AddOne(int x)
         {
             Console.WriteLine("Inside AddOne");

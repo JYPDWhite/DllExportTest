@@ -8,16 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="..\ClassLibrary\bin\Debug\net8.0\ClassLibrary.deps.json" Link="ClassLibrary.deps.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="..\ClassLibrary\bin\Debug\net8.0\ClassLibrary.dll" Link="ClassLibrary.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\ClassLibrary\bin\Debug\net8.0\ClassLibrary.pdb" Link="ClassLibrary.pdb">
+    <None Include="..\ClassLibrary\bin\Release\net8.0\win-x64\native\ClassLibrary.dll" Link="ClassLibrary.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
